@@ -1,0 +1,67 @@
+<html>
+<head>
+<title> form </title>
+<h1 style="font-size: large;" color="black" width="30px"> Black Goose Bistro | Pizza on Demand</h1>
+</head>
+<paragraph>
+    Our 12th wood-fired pizzas are avaiable for delivery. Build your
+    <br> custom pizza and we'll deliver it within an hour
+</paragraph>
+<br/>
+<br>
+Your Infomation
+<form method="POST" action="http://blackgoosebistro.com/pizza.php">
+    <br>
+    Name : <input type="text" name="customername">
+    <br>
+    Address : <input type="address">
+    <br>
+    Tlp Number : <input type="telephone">
+    <br>
+    Email : <input type="email">
+    <br>
+    Delivery Instruction : <textarea input type="text" cols="30" rows="5"></textarea>
+    <br>
+    <paragraph>
+        <b>Design Your Dream Pizza : </b>
+        <br>
+        Pizza specs
+        <br>
+    </paragraph>
+    <br/>
+    <p> Crust (choose one):</p>
+    <ol>
+        <li>
+            <input type="radio" name="Crust" value="Classic White"> Classic White </li>
+         <li>
+             <input type="radio" name="Crust" value="Multigrain"> Multigrain </li>
+        <li>
+             <input type="radio" name="Crust" value="Cheese-stuffed Crust"> Cheese-stuffed Crust </li>
+         <li>
+            <input type="radio" name="Crust" value="Glutten-free"> Glutten-free </li>
+    </ol>
+    <p> Toppings (choose as many as you want):</p>
+    <ol>
+        <li>
+            <input type="checkbox" name="Topping" value="Red Sauce" checked> Red Sauce </li>
+        <li>
+            <input type="checkbox" name="Topping" value="Mozzarela Cheese"> Mozzarela Cheese </li>
+        <li>
+            <input type="checkbox" name="Topping" value="Pepperoni"> Pepperoni </li>
+        <li>
+            <input type="checkbox" name="Topping" value="Mushroom"> Mushroom </li>
+        <li>
+            <input type="checkbox" name="Topping" value="Peppers"> Peppers </li>
+        <li>
+            <input type="checkbox" name="Topping" value="Anchovies"> Anchovies </li>
+
+    <p>Number
+        <br>
+        How Many Pizza :
+    </p>
+    <input type="number">
+    <br>
+    <input type="submit">
+    <input type="reset"> 
+</form>
+</html>
